@@ -1,0 +1,165 @@
+        body{
+           background-color: #c3d2d5;
+        }
+
+        h1{
+           color: #824670;
+           font-size: 54px;
+           margin: 0;
+           padding: 0;
+           text-align: center;
+           font-style: italic;
+           font-family:cursive;
+           background-image: url("/HTML/images/bg\ heading.jpg");
+           background-size: contain;
+        }
+        .navbar p{
+           font-size: 20px;
+           font-weight: bold;
+           text-align: center;
+        }
+        .navbar ul { 
+           font-size: large;
+           list-style-type: none; 
+           margin: 0; 
+           padding: 0; 
+           display: flex;
+           justify-content: center; 
+        }
+        .navbar ul li a { 
+           display:block;
+           color: rgb(94, 32, 48); 
+           text-align: center;
+           padding: 14px 20px; 
+           text-decoration: none;
+        } 
+        .navbar ul li a:hover { 
+            background-color: rgb(197, 118, 173)
+        }
+   
+        #aboutus {
+            background-color: #e3eef0;
+            padding: 20px;
+            border-radius: 10px;   
+        }
+
+        #aboutus h2 {
+            text-align: center;
+            text-decoration:underline;
+        }
+
+        #Ourproducts {
+            background-color: #e3eef0;
+            padding: 20px;
+            border-radius: 10px; 
+        }
+
+        #Ourproducts h2 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        #Ourproducts p {
+            font-size: medium;
+            line-height: 2;
+            text-align: center;
+        }
+    
+        #Ourproducts video {
+            display: block;
+            margin: auto;
+        }
+        
+        #Ourproducts img {
+            display: block;
+            margin: auto;
+            border-radius: 5px;
+        }
+        #Ourproducts h4 {
+            text-align: center; 
+            font-size: medium;
+        }
+        
+        #Ourproducts details {
+            text-align: center;
+        }
+        
+        #Ourproducts button {
+            display: block;
+            margin:auto;
+            background-color: #4d9ff7;
+            color: white;
+            font-size: large;
+        }
+        #CustomerReviews {
+            background-color: #e3eef0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #CustomerReviews caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #CustomerReviews th,td {
+            border: 1px solid black;
+            padding:10px;
+        }
+
+        #CustomerReviews th {
+            background-color: #f9f9f9;   
+        }
+
+        #CustomerReviews tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        #Contactus{
+           background-color: #e3eef0;
+           padding: 20px;
+           border-radius: 10px;
+        }
+
+        #Contactus h2{
+           text-align: center;
+        }
+
+        #Contactus p{
+           font-size: 17px;
+        }
+
+        form {
+            background-color: #c3d2d5;
+            padding: 10px;
+            border-radius: 10px; 
+        }
+
+        label { 
+            display: block;   
+            border-radius: 10px;
+        }
+
+        input[type="text"], input[type="email"] {
+             font-size: 16px;
+             width: 100%;
+             padding: 10px; 
+             border: 1px solid #f3f0f0; 
+             box-sizing: border-box;
+        }
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #29581f;
+            color: white;
+            font-size: 20px;
+        }
+
+        footer p {
+            text-align: center;
+            font-size: large;
+        }
+      
+        
+        
+        
+             
