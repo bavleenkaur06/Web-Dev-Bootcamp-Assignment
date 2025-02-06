@@ -10,7 +10,7 @@
            text-align: center;
            font-style: italic;
            font-family:cursive;
-           background-image: url("/HTML/images/bg\ heading.jpg");
+           background-image: url("/images/bg\ heading.jpg");
            background-size: contain;
         }
         .navbar p{
