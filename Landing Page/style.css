@@ -1,0 +1,165 @@
+header{
+    background-image: url("/bg\ heading.jpg");
+    background-size: contain;
+}
+header h1 {
+    text-align: center;
+    font-size: 60px;
+}
+nav{
+    padding: 20px;
+    width: 100%;
+    position: sticky;
+}
+
+nav ul li {
+    display: inline
+}
+nav ul li a { 
+    text-decoration: none;
+        margin: 16px;
+        color: #0e0b0b;
+        font-size: xx-large;
+    }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#aboutus {
+    width: 100%;
+    margin: 1px;
+    padding: 20px;
+    background-color:  #eee7e7;
+    border-radius: 8px;
+}
+#aboutus h2 {
+    text-align: center;
+    color: #1a1818;
+    font-size: 37px;
+    text-decoration: wavy underline #f3b5ee;
+}
+#aboutus p {
+    color: #0e0303;
+    line-height: 1.5;
+    font-size: large;
+
+}
+#aboutus li {
+    margin-bottom: 5px;
+    font-size: large;
+}
+#aboutus b {
+    color: #7e0404;
+}
+
+#courses {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #eee7e7;
+}
+#courses h2 {
+    text-align: center;
+    color: #110d0d;
+    font-size: 36px;
+    text-decoration: wavy underline #f3b5ee;
+}
+#courses p {
+    text-align: center;
+    color: #091653;
+    font-size: larger ;
+}
+table {
+width: 100%;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #e47857;
+    color: #1b0202;
+    font-size: larger;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#contactus {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f3f7f3;
+    border-radius: 5px;
+
+}
+#contactus h2 {
+    text-align: center;
+    color: #550f0f;
+    font-size: 35px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0d0dd;
+    padding: 20px;
+    border-radius: 10px; 
+}
+label {
+    font-weight: bold;
+    color: #241f1f;
+}
+input, select, button {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+}
+button {
+    border-color: #241f1f;
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #ecf2f3;
+    padding: 20px;
+    text-align: center;
+}
+footer p {
+    padding: 5px;
+    color: #41484e;
+}
+footer a {
+    color: #4a99ee;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 36px;
+    }
+    nav ul li a {
+        font-size: large;
+        margin: 8px;
+    }
+    #aboutus h2, #courses h2, #contactus h2 {
+        font-size: 28px;
+    }
+    #aboutus p, #courses p {
+        font-size: medium;
+    }
+    table, th, td {
+        font-size: medium;
+        padding: 5px;
+    }
+    button {
+        font-size: medium;
+        padding: 10px;
+    }
+}
