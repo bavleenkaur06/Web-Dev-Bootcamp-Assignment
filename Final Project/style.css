@@ -1,0 +1,334 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px  ;
+    box-shadow: 0 10px 30px rgba(247, 177, 137, 0.06);
+   position:sticky;
+   background-color: white;
+   top: 0; 
+    z-index: 1000;
+   
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+list-style: none;
+padding: 20px;
+font-size: 30px;
+
+}
+#navbar li a{
+    text-decoration: none;
+    color: rgb(19, 4, 9);
+    font-family: cursive;
+    transition: 0.2sec;
+} 
+#navbar  li a:hover {
+    color: rgb(236, 155, 135);
+    text-decoration: dotted underline rgb(219, 96, 39);
+}
+#hero{
+    background-image: url("/images/herobg.jpeg");
+    background-size: cover;
+    width:100%;
+   height:100vh;
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+#hero button{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 280px;
+    margin-bottom: 70px;
+background-color: rgb(138, 33, 91);
+    color: aqua;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+  }
+  #feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     flex-wrap: wrap;
+  }
+    #feature .fe-box{
+        width: 150px;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 20px 20px 34px rgba(253, 164, 48, 0.06);
+        border: 1px solid rgb(245, 243, 237);
+        border-radius: 4px;
+    
+    }
+    
+    #feature .fe-box h6 {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 2;
+    border-radius: 15px;
+    color: #0a2422;
+    background-color: #f7d0d7;
+    }
+
+    #feature .fe-box:nth-child(2) h6 {
+        background-color:#d0f7fc;
+    }
+    #feature .fe-box:nth-child(3) h6 {
+        background-color:#b4b2b2;
+    }
+    #feature .fe-box:nth-child(4) h6 {
+        background-color:#cdebbc;
+        }
+     #feature .fe-box:nth-child(5) h6 {
+    background-color:#f8dbae;
+}
+#feature .fe-box:nth-child(6) h6 {
+    background-color:#fcbfe7;
+}
+ #product1{
+    text-align:center ;
+    font-size: 28px;
+ }
+ #product1 h2{
+    font-size: 60px;
+ }
+ #product1 .pro-container{
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+flex-wrap: wrap;
+align-items: baseline;
+ }
+ #product1 .pro{
+     width: 10%;
+     min-width: 250px;
+     padding: 10px 12px;
+     border: 1px solid grey;
+     border-radius: 25px;
+     margin: 15px 0;
+     cursor: pointer;
+     box-shadow: 10px 10px 20px;
+     transition: 0.3s ease;
+     position: relative;
+ }
+ #product1 .pro img{
+    width: 100%;
+    border-radius: 10px;
+ }
+ #product1 .pro .des{
+    text-align: center;
+    line-height: 0;
+ }
+
+#product1 .pro .des h5{
+    font-size: 25px;
+    font-family: monospace;
+
+}
+#product1 .pro .des i{
+    font-size: 14px;
+    color: #ece257;
+}
+
+#product1 .pro .des h4{
+    font-size: 20px;
+    color: rgb(26, 16, 172);
+}
+
+
+#product1 .pro  .cart{
+color: #0b1d1b;
+width: 40px;
+height: 40px;
+line-height: 40px;
+font-size: 20px;
+font-weight: bolder;
+background-color: #a7d6f5;
+border: 0;
+border-radius: 30px;
+position: absolute;
+right: 10px;
+bottom: 5px;
+
+
+}
+
+#banner{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/images/bannerbg.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+#banner h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 65px;
+    color: #f10a57;
+    margin: 0;
+    padding: 0;
+
+}
+#banner h4{
+    font-size: 33px;
+    color: #410316;
+    
+}
+#banner button{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #200517;
+    background-color: #d190af;
+    padding: 20 20 20 20;
+    line-height: 2;
+    border: 0;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#banner button:hover{
+    color: #14c40d;
+}
+
+#sm-banner{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+#sm-banner .bannerbox{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    text-align: right;
+    background-image: url("/images/banner\ \(5\).jpeg");
+    width: 500px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center; 
+}
+#sm-banner .bannerbox2{
+    background-image: url("/images/banner\ \(6\).jpeg");
+}
+#sm-banner h4{
+    font-size: 35px;
+    font-style: oblique;
+    color: #862f65;
+    margin-bottom: 0;
+}
+#sm-banner h2{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    margin-top: 8px;
+}
+#sm-banner span{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+#sm-banner button{
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #090f0ff8;
+     background-color: transparent;
+     border: 1px solid #0e1111f8;
+     cursor: pointer;
+}
+
+#sm-banner button:hover{
+    color: rgb(5, 87, 18);
+    background-color: #cdebbc;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#banner3 .bannerbox{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-left: 0;
+text-align: right;
+background-image: url("/images/banner\ \(1\).jpeg");
+width: 435px;
+height: 40vh;
+background-size: cover;
+background-position: center; 
+margin-bottom: 20px;
+}
+#banner3 .bannerbox2{
+background-image: url("/images/banner\ \(2\).jpeg");
+}
+#banner3 .bannerbox3{
+background-image: url("/images/banner\ \(3\).jpeg");
+}
+footer{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    background-color: #b4b2b2;
+}
+footer .col{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+footer .logo{
+    font-size: 30px;
+}
+footer h4{
+     font-size: 15px ;
+     padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-bottom:10px;
+}
+footer .follow{
+    color: gray;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
