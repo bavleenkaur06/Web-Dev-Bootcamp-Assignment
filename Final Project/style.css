@@ -31,6 +31,13 @@ font-size: 30px;
     color: rgb(236, 155, 135);
     text-decoration: dotted underline rgb(219, 96, 39);
 }
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
 #hero{
     background-image: url("/images/herobg.jpeg");
     background-size: cover;
@@ -331,40 +338,78 @@ footer .follow{
     padding-right: 5px;
     cursor: pointer;
 }
-@media (max-width: 799px) {
 
-#navbar {
+@media (max-width:799){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: white;
+        box-shadow: 0 40px 60px rgba(43, 42, 42, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
 
-display: flex;
-
-flex-direction: column;
-
-align-items: flex-start;
-
-justify-content: flex-start;
-
-position: fixed;
-padding:80px 0 0 10px;
-
-top: 0;
-
-right: -300px;
-
-height: 100vh;
-
-width: 300px;
-
-background-color: #E3E6F3;
-
-box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    }
+    #navbar.active{
+        right: 0px;
+    }
+#navbar li{
+    margin-bottom: 30px;
+}
+#mobile{
+    display: flex;
+    align-items: center;
+}
+#mobile i{
+    color: #200517;
+    font-size: 30px;
+    padding-left: 20px;
 
 }
- }
+#close{
+    position: absolute;
+    top:30px;
+    left: 30px;
+    color: black;
+    font-size: 25px;
+}
+#hero{
 
-#navbar.active{
-right: 0px;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+   height:100vh;
 }
 
-#navbar li {
-margin-bottom: 25px;
+#feature{
+    justify-content: center;
+}
+#product .pro-container{
+    justify-content: center;
+}
+
+#product1 .pro{
+    margin: 15px ;
+
+}
+#banner{
+    height: 20vh;
+}
+#sm-banner .bannerbox{
+    height: 30vh;
+    
+}
+#banner3{
+    padding: 0 40px;
+}
+
+#banner3 .bannerbox{
+    width: 28%;
+}
+
 }
