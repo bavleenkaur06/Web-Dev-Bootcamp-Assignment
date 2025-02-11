@@ -339,7 +339,7 @@ footer .follow{
     cursor: pointer;
 }
 
-@media (max-width:799){
+@media only screen and (max-width:799){
     #navbar{
         display: flex;
         flex-direction: column;
